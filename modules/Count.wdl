@@ -10,6 +10,7 @@ task Count {
 
         Boolean includeIntrons
         Int? expectCells = 3000
+        String? chemistry = "auto"
 
         Int numCores = 16
         Int memory = 128
@@ -18,7 +19,7 @@ task Count {
         String dockerRegistry
     }
 
-    String cellRangerVersion = "6.1.2"
+    String cellRangerVersion = "7.1.0"
     String dockerImage = dockerRegistry + "/cromwell-cellranger:" + cellRangerVersion
     Float inputSize = size(inputFastq, "GiB")
 
@@ -51,7 +52,9 @@ task Count {
             --sample=~{fastqName} \
             --localcores=~{numCores} \
             --localmem=~{localMemory} \
-            --expect-cells=~{expectCells} ~{true='--include-introns' false='' includeIntrons}
+            --expect-cells=~{expectCells} \
+            --chemistry=~{chemistry} \
+            ~{true='--include-introns' false='' includeIntrons}
 
         # targz the analysis folder and pipestance metadata if successful
         if [ $? -eq 0 ]

@@ -12,9 +12,11 @@ workflow CellRangerGex {
 
         Boolean includeIntrons
         Int? expectCells
+        String? chemistry        
 
         Int numCores = 16
         Int memory = 128
+
 
         # docker-related
         String dockerRegistry
@@ -30,7 +32,8 @@ workflow CellRangerGex {
             expectCells = expectCells,
             numCores = numCores,
             memory = memory,
-            dockerRegistry = dockerRegistry
+            dockerRegistry = dockerRegistry,
+            chemistry = chemistry,
     }
 
     output {

@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 wf_name="cellranger-gex"
-version="6.1.2"
+version="7.1.0"
 files="submit.sh CellRangerGex.deps.zip CellRangerGex.wdl CellRangerGex.options.aws.json configs/template.*.json"
 dest="$HOME/scing/bin"
 
