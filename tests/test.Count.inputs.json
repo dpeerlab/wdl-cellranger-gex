@@ -1,13 +1,13 @@
 {
     "Count.sampleName": "Foxp3_minus",
-    "Count.fastqName": "2676_Foxp3_minus_IGO_12104_3",
+    "Count.fastqName": "2719_CRC182CW2_IGO_12109_35",
     "Count.inputFastq": [
-        "s3://dp-lab-data/collaborators/arudensky/Cd4CellDiffAf/Foxp3_minus/FASTQ/2676_Foxp3_minus_IGO_12104_3_S25_L001_I1_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/Cd4CellDiffAf/Foxp3_minus/FASTQ/2676_Foxp3_minus_IGO_12104_3_S25_L001_I2_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/Cd4CellDiffAf/Foxp3_minus/FASTQ/2676_Foxp3_minus_IGO_12104_3_S25_L001_R1_001.fastq.gz",
-        "s3://dp-lab-data/collaborators/arudensky/Cd4CellDiffAf/Foxp3_minus/FASTQ/2676_Foxp3_minus_IGO_12104_3_S25_L001_R2_001.fastq.gz"
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L003_R1_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L003_R2_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L004_R1_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L004_R2_001.fastq.gz"
     ],
-    "Count.referenceUrl": "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-mm10-2020-A.tar.gz",
+    "Count.referenceUrl": "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz",
     "Count.includeIntrons": false,
     "Count.expectCells": 3000,
     "Count.numCores": 16,

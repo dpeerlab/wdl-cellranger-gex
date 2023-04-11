@@ -2,12 +2,10 @@
     "CellRangerGex.sampleName": "tinygex",
     "CellRangerGex.fastqName": "tinygex",
     "CellRangerGex.inputFastq": [
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L001_I1_001.fastq.gz",
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L001_R1_001.fastq.gz",
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L001_R2_001.fastq.gz",
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L002_I1_001.fastq.gz",
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L002_R1_001.fastq.gz",
-        "s3://dp-lab-test/tiny/cellranger_tiny_fastq/tinygex_S1_L002_R2_001.fastq.gz"
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L003_R1_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L003_R2_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L004_R1_001.fastq.gz",
+        "s3://dp-lab-data/moormana/SCRIdb_Testing/CRC182CW2/FASTQ/2719_CRC182CW2_IGO_12109_35_S1_L004_R2_001.fastq.gz"
     ],
     "CellRangerGex.referenceUrl": "https://dp-lab-test.s3.amazonaws.com/tiny/cellranger_tiny_ref/refdata-gex.tar.gz",
     "CellRangerGex.includeIntrons": true,

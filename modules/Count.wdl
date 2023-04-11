@@ -53,7 +53,7 @@ task Count {
             --localcores=~{numCores} \
             --localmem=~{localMemory} \
             --expect-cells=~{expectCells} \
-            --chemistry=~{chemistry} \ ~{true='--include-introns' false='' includeIntrons}
+            --chemistry=~{chemistry} ~{true='--include-introns' false='' includeIntrons}
 
         # targz the analysis folder and pipestance metadata if successful
         if [ $? -eq 0 ]
