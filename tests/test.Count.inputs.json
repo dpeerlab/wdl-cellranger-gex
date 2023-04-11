@@ -12,5 +12,5 @@
     "Count.expectCells": 3000,
     "Count.numCores": 16,
     "Count.memory": 128,
-    "Count.dockerRegistry": "quay.io/hisplan"
+    "Count.dockerRegistry": "docker.io/sailmskcc"
 }

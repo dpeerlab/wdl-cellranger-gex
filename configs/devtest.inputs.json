@@ -13,5 +13,5 @@
     "CellRangerGex.includeIntrons": true,
     "CellRangerGex.expectCells": 1000,    
     "CellRangerGex.memory": 128,
-    "CellRangerGex.dockerRegistry": "quay.io/hisplan"
+    "CellRangerGex.dockerRegistry": "docker.io/sailmskcc"
 }
